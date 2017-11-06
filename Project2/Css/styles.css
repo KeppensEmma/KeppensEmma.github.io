@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
+
+body {
+    font-family: Times, Georgia, serif;
+    font-size: 60px;
+    font-weight: normal;
+    background: url("/project1/images/nedflanders.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: aquamarine;
+
+   
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Old+Standard+TT', Helvetica, arial;
+    color: red
+}
+
+/* Layout */
+.header {
+   padding: 15px;
+   width: 100%;
+   position: fixed;
+   top: 0;
+   box-sizing: border-box;
+z-index: 9999;
+
+}
+
+. header h1 {
+   float: left;
+    
+    
+    
+}
+
+.header h2 {
+   float: right;
+}
+
+.footer {
+   padding: 20px;
+   width: 100%;
+    clear:both;
+    text-align: center;
+    
+    
+    
+}
+.lyrics1 {
+    position: absolute
+}
+
+.content {
+   margin: 100px auto;
+   max-width: 700px;
+   text-align: center;
+}
+
+.event {
+   margin-bottom: 50px;
+   position: relative;
+}
+
+.event h3 {
+   font-size: 2rem;
+   text-transform: uppercase;
+   text-decoration: underline;
+}
+
+.event .location {
+   width: 120px;
+   height: 120px;
+   line-height: 120px;
+   position: absolute;
+   top: -30px;
+   right: 0px;
+   border-radius: 50%;
+}
+
+.event img {
+    border-top: 10%;
+}
+
+.event ul {
+   font-family: 'Oswald';
+   font-size: 5rem;
+   text-transform: uppercase;
+   font-weight: bold;
+    
+}
+
+a {
+    font-family:helvetica;
+    font-language-override: normal;
+    color: yellow;
+    font-size: 30px;
+    
+    
+ 
+}
+
+ul {
+    
+}
+
+pablo1 {
+    position: relative;
+    margin-top: 8px;
+    flex-flow: wrap
+    
+}
+
+/* Responsive */
+@media screen and (min-width:600px) {
+    nav
+}
