@@ -82,6 +82,9 @@ header nav ul li a:hover {
     background-position: center center;
     
 }
+.hero-surfboards {
+    background-image:url('images/surfboards-banner.png')
+}
 
 .hero-text-container {
     max-width: 700px;
@@ -155,8 +158,14 @@ header nav ul li a:hover {
     height: 300px;
     float: left;
     display: table;
+    opacity: 0.6;
     
 }
+
+.prefooter-qs:hover, .prefooter-sr:hover {
+    opacity: 1;
+}
+
 .prefooter-text {
     display: table-cell;
     vertical-align: middle; 
@@ -198,5 +207,30 @@ footer address {
     color: #fff;
     margin-bottom: 40px;
 }
+
+/* Responsive Styles */
+@media screen and (max-width: 599px) {
+    body {
+        background-color: red;
+    }
+    header h1, header nav {
+        float: none;
+    }
+    .feature-text, .feature-image {
+        padding: 0px 20px;
+        width:100%;
+        box-sizing: border-box;
+    }
+    .feature-image {
+        margin-bottom: 50px;
+    }
+    .prefooter-sr, prefooter-qs{
+        width: 100%;
+    }
+
+    .prefooter-container {
+        padding: 50px 20px 50px;
+    }
+
 
 
