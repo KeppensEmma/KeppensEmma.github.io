@@ -1,0 +1,172 @@
+/* FCD Surfboards */
+
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:400,700');
+/*
+font-family: 'Roboto', Arial, Helvetica, sans-serif;
+font-family: 'Roboto Condensed', Impact, sans-serif;
+*/
+
+/* Global Styles */
+body {
+    
+    font-family: 'GT america condensed thin', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1em;
+    color: #666666;
+}
+
+.sidebar {
+  padding-top: 30px;
+  padding-left: 30px;
+  float: left;
+  width: 300px;
+  position: fixed;
+} 
+
+.sidebar h1 {
+  color: blue;
+  margin-bottom: 60px;
+    line-height: 1.1em;
+    
+  
+    
+}
+
+.sidebar ul {
+  margin-bottom: 20px;
+    font-size: 12px;
+    
+    
+  
+}
+
+.content {
+  padding-top: 120px;
+  margin-left: 350px;
+     width: 800px;
+    height: 500px;
+    
+}
+.images{
+    width: 800px;
+    height: 500px;
+    
+}
+.smiley {
+
+    position: fixed;
+  top: 30px;
+  right: 30px;
+    
+
+
+ }
+
+
+
+
+h1, h3, h4, h5, h6 {
+    font-family: 'GT america', Impact, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 40px;
+
+   
+}
+h2 {
+    color: black;
+   margin-top: 30px;
+       
+       margin-bottom: 30px;
+    font-family: 'GT america', Impact, sans-serif;
+     font-weight: 560;
+       font-size: 30px;
+       text-transform: uppercase;    
+}
+
+ul {
+     font-family: 'GT america Thin';
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+header {
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    top: 0px;
+    z-index: 99999;
+    box-sizing: border-box;
+}
+
+header h1 {
+    float: left;
+}
+
+header nav {
+    float: right;
+
+}
+
+header nav ul {
+    margin-top: 20px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+header nav ul li a {
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+header nav ul li a:hover {
+    color: yellow;
+}
+
+
+div#smiley    {
+ background-image: url('images/smiley.png');
+ height: px;
+}
+ 
+img {
+    height: 500px;
+        width:800px;
+    
+}
+
+
+
+
+/* page styles */
+
+/* Responsive Styles */
+
+@media screen and (max-width:599px) {
+    
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
