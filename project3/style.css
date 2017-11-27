@@ -16,6 +16,15 @@ body {
     color: #666666;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
 .sidebar {
   padding-top: 30px;
   padding-left: 30px;
@@ -52,17 +61,27 @@ body {
     width: 800px;
     height: 500px;
     
+    
 }
 .smiley {
 
     position: fixed;
   top: 30px;
   right: 30px;
+    }
+
+.gif img {
+
+width: 320px;
     
+}
 
+.istanbulekspres img {
 
- }
+width: 400px;
 
+    
+}
 
 
 
@@ -132,16 +151,32 @@ header nav ul li a:hover {
 }
 
 
-div#smiley    {
- background-image: url('images/smiley.png');
- height: px;
+.smiley {
+    width:100px;
+    height: 100px;
+    position: fixed;
+    top: 10;
+    right: 10;
+    
+
 }
- 
-img {
-    height: 500px;
-        width:800px;
+
+.smiley img {
+    width: 100%;
     
 }
+ 
+.images img {
+
+        width:800px;
+    margin-bottom: 10px;
+   
+    
+}
+
+
+
+
 
 
 
