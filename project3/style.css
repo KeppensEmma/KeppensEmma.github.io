@@ -124,6 +124,9 @@ h3 {
 
 .description {
    width: 400px;
+    font-family: 'GT america', Impact, sans-serif;
+     font-weight: 560;
+       font-size: 12px;
 }
 
 ul {
